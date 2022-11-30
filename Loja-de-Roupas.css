@@ -1,0 +1,80 @@
+.header{
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+}
+.header h1{
+    font-size: 50px;
+}
+*
+{box-sizing:border-box
+}
+
+body{
+    font-size: arial;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+.topnav{
+overflow:hidden;
+background-color: black;
+}
+
+.topnav a{
+    float:left;
+    display:block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: #ddd;
+    color:black
+}
+
+.topnav img {
+    vertical-align: middle;
+}
+
+.row{
+    content: "center";
+    flex-direction: center;
+    clear: both;
+    justify-content: center;
+}
+
+.sellcard{
+    float: left;
+    width: 23.40%;
+    margin: 10;
+}
+
+.sellcard img {
+    width: 80%;
+    margin: auto;
+}
+
+.sellcard .descricao {
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    text-align: left;
+    text-indent: 40;
+    vertical-align: middle;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.sellcard .valor{
+    text-align: left;
+    vertical-align: middle;
+    text-indent: 80;
+}
+
+.sellcard .compra{
+    text-align: left;
+    vertical-align: middle;
+    text-indent: 80;
+}
